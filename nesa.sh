@@ -55,6 +55,8 @@ install_node() {
 
     echo -e "${YELLOW}설치명령어가 실행되면 다음 설정들을 입력해주세요.${NC}"
     echo -e "${YELLOW}Wizardy-노드이름-이메일-추천코드-API키-개인키${NC}"
+    echo -e "${YELLOW}레퍼럴 코드는 대시보드 사이트에서 접속한 후 월렛을 연결하고 지갑을 열어서 nesa로 시작하는 주소를 입력하세요.${NC}"
+    echo -e "${YELLOW}셀퍼럴을 진행하시거나 nesa16aez63l50mnc8w0k6pvyhku2xcskzvcf39l8wg 를 입력해주세요.${NC}"
     echo -e "${YELLOW}실행 후 포트충돌이 예상되므로 스크립트를 재실행하여 포트를 변경해주세요.${NC}"
     echo -e "${YELLOW}대시보드 사이트는 다음과 같습니다: https://node.nesa.ai/${NC}"
     read -p "위 단계들을 확인하셨으면 엔터를 눌러주세요."
