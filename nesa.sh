@@ -8,10 +8,6 @@ install_node() {
     # 필요한 패키지 설치
     sudo apt update && sudo apt install curl && apt install jq -y
 
-    # 작업 디렉토리 설정
-    WORK_DIR="/root/nesa"
-    cd $WORK_DIR
-
     # 도커 설치
     if ! command -v docker &> /dev/null; then
         echo "Docker 설치 중..."
